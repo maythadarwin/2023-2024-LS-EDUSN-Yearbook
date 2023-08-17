@@ -39,49 +39,6 @@ footer {
        top: 200px;
     }
 
-    .tiny1, .tiny2, .tiny3, .tiny4, .tiny5 {
-      height: 200px;
-      width: auto;
-      transition: all 0.2s ease-in-out;
-    }
-
-    .tiny1:hover, .tiny2:hover, .tiny3:hover, .tiny4:hover, .tiny5:hover {
-      transform: rotate(45deg);
-    }
-
-    .Eng, .Science, .ICT, .GP, .Math {
-      
-      height: 500px;
-      width: 200px;
-  
-    }
-
-    .Eng {
-      position: relative;
-      top: 150px;
-    }
-
-    .GP {
-      position: relative;
-      top: 100px;
-    }
-  
-    .Math {
-      position: relative;
-      top: 100px;
-    }
-
-    .Science {
-      position: relative;
-      top: 150px;
-    }
-
-    .ImgFit {
-      object-fit: cover;
-      height: 500px;
-      width: 200px;
-    }
-
     .overlay {
       position: absolute;
       bottom: 0;
@@ -94,24 +51,7 @@ footer {
       transition: .5s ease;
     }
 
-     .Eng:hover .overlay {
-      height: 100%;
-     }
-     .Math:hover .overlay {
-      height: 100%;
-     }
-
-     .Science:hover .overlay {
-      height: 100%;
-     }
-
-     .ICT:hover .overlay {
-      height: 100%;
-     }
-
-     .GP:hover .overlay {
-      height: 100%;
-     }
+    
 
      h3, p {
       letter-spacing: 3px;
